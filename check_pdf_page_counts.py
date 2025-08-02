@@ -26,5 +26,5 @@ def check_pdf_page_counts(folder_path):
 
 # Ví dụ sử dụng
 if __name__ == "__main__":
-    folder = "E:/intership/web_crawling/selenium_thuvienphapluat/inventory/bo_luat_to_tung_hinh_su/pdf"
+    folder = "E:/intership/raw_law/inventory/bo_luat_to_tung_hinh_su/pdf"
     check_pdf_page_counts(folder)

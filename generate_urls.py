@@ -18,14 +18,12 @@ def generate_github_urls(input_folder, repo_owner="Binkeurss", repo_name="raw_la
     """
     base_url = f"https://raw.githubusercontent.com/{repo_owner}/{repo_name}/refs/heads/{branch}/{github_folder}"
     files_list = []
-    
-    # Iterate through all .pdf files in the input folder
+
     for filename in os.listdir(input_folder):
         if filename.endswith(".pdf"):
-            # Match the new filename pattern (Dieu_YYY_Chuong_X.pdf)
-            match = re.match(r'Dieu_(\d{3})_Chuong_([IVXLCDM0-9]+)\.pdf', filename)
+            match = re.match(r'(?:BLHS_)?Dieu_(\d{3,4})_Chuong([IVXLCDM0-9]+)\.pdf', filename)
             if match:
-                article_number = int(match.group(1))  # Extract article number for sorting
+                article_number = int(match.group(1))
                 files_list.append({
                     "url": f"{base_url}/{filename}",
                     "mime": "application/pdf",
@@ -33,14 +31,10 @@ def generate_github_urls(input_folder, repo_owner="Binkeurss", repo_name="raw_la
                     "vision": True,
                     "article_number": article_number
                 })
-    
-    # Sort by article number
+
     files_list.sort(key=lambda x: x["article_number"])
-    
-    # Remove article_number from output
     for item in files_list:
         del item["article_number"]
-    
     return files_list
 
 def save_files_list(files_list, output_file):
@@ -58,13 +52,13 @@ def save_files_list(files_list, output_file):
                     f'"url": "{item["url"]}", '
                     f'"mime": "{item["mime"]}", '
                     f'"filename": "{item["filename"]}", '
-                    f'"Vision": {str(item["vision"]).lower()}}},\n')
+                    f'"vision": {str(item["vision"])}}},\n')
         f.write("]\n")
 
 # Example usage
-input_folder = r"E:/intership/web_crawling/selenium_thuvienphapluat/inventory/bo_luat_to_tung_hinh_su"
-output_file = r"E:/intership/web_crawling/selenium_thuvienphapluat/pdf_urls_v2.py"
-files_list = generate_github_urls(input_folder, repo_owner="Binkeurss", repo_name="raw_law", branch="main", github_folder="bo_luat_to_tung_hinh_su")
+input_folder = r"E:/intership/raw_law/inventory/bo_luat_hinh_su/pdf"
+output_file = r"E:/intership/raw_law/bo_luat_hinh_su_urls.py"
+files_list = generate_github_urls(input_folder, repo_owner="Binkeurss", repo_name="raw_law", branch="main", github_folder="inventory/bo_luat_hinh_su/pdf")
 save_files_list(files_list, output_file)
 print(f"✅ Đã tạo: {output_file}")
 print(f"Total PDFs listed: {len(files_list)}")
