@@ -148,7 +148,7 @@ def create_pdf_for_article(chapter_title, chapter_number, chapter_roman, article
                 spaceAfter=0
             )
 
-            chapter_para = Paragraph(f"{chapter_title}: {chapter_number}", chapter_style)
+            chapter_para = Paragraph(chapter_title, chapter_style)
             title_para = Paragraph(article_title, article_title_style)
             content_para = Paragraph(cleaned_text, content_style)
 
