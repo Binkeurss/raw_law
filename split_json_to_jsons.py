@@ -37,8 +37,8 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.abspath(os.path.join(current_dir, "..", ".."))
 sys.path.append(project_root)
 
-json_path = r"E:/intership/web_crawling/selenium_thuvienphapluat/bo_luat_hinh_su_2015.json"
-output_folder = r"E:/intership/web_crawling/selenium_thuvienphapluat/inventory/bo_luat_hinh_su/json"
+json_path = r"E:/intership/raw_law/thi_hanh_an_hinh_su.json"
+output_folder = r"E:/intership/raw_law/inventory/thi_hanh_an_hinh_su/json"
 
 
 with open(json_path, "r", encoding="utf-8") as f:

@@ -33,7 +33,7 @@ def convert_all_json_to_txt(json_folder, output_folder):
             except Exception as e:
                 print(f"❌ Lỗi với {filename}: {e}")
 
-json_folder = r"E:/intership/web_crawling/selenium_thuvienphapluat/inventory/bo_luat_hinh_su/json"
-output_folder = r"E:/intership/web_crawling/selenium_thuvienphapluat/inventory/bo_luat_hinh_su/txt"
+json_folder = r"E:/intership/raw_law/inventory/thi_hanh_an_hinh_su/json"
+output_folder = r"E:/intership/raw_law/inventory/thi_hanh_an_hinh_su/txt"
 
 convert_all_json_to_txt(json_folder, output_folder)

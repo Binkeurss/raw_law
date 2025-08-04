@@ -21,7 +21,7 @@ def generate_github_urls(input_folder, repo_owner="Binkeurss", repo_name="raw_la
 
     for filename in os.listdir(input_folder):
         if filename.endswith(".pdf"):
-            match = re.match(r'(?:BLHS_)?Dieu_(\d{3,4})_Chuong([IVXLCDM0-9]+)\.pdf', filename)
+            match = re.match(r'(?:THAHS_)?Dieu_(\d{3,4})_Chuong([IVXLCDM0-9]+)\.pdf', filename)
             if match:
                 article_number = int(match.group(1))
                 files_list.append({
@@ -56,9 +56,9 @@ def save_files_list(files_list, output_file):
         f.write("]\n")
 
 # Example usage
-input_folder = r"E:/intership/raw_law/inventory/bo_luat_hinh_su/pdf"
-output_file = r"E:/intership/raw_law/bo_luat_hinh_su_urls.py"
-files_list = generate_github_urls(input_folder, repo_owner="Binkeurss", repo_name="raw_law", branch="main", github_folder="inventory/bo_luat_hinh_su/pdf")
+input_folder = r"E:/intership/raw_law/inventory/thi_hanh_an_hinh_su/pdf"
+output_file = r"E:/intership/raw_law/thi_hanh_an_hinh_su_urls.py"
+files_list = generate_github_urls(input_folder, repo_owner="Binkeurss", repo_name="raw_law", branch="main", github_folder="inventory/thi_hanh_an_hinh_su/pdf")
 save_files_list(files_list, output_file)
 print(f"✅ Đã tạo: {output_file}")
 print(f"Total PDFs listed: {len(files_list)}")
