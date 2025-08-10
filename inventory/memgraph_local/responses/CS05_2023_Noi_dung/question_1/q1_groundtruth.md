@@ -1,0 +1,13 @@
+1.1.3. Hệ thống pháp luật, quy định, hướng dẫn về sử dụng kinh phí bổ sung có mục tiêu
+Kinh phí bổ sung có mục tiêu được quy định tại Luật Ngân sách nhà nước số 83/2015/QH13, được hướng dẫn tại Nghị định 163/2016/NĐ-CP ngày 21/12/2016 và Thông tư 342/2016/TT-BTC ngày 30/12/2016 của Bộ Tài chính. Hằng năm, Bộ Tài chính ban hành các Thông tư cụ thể để hướng dẫn tổ chức thực hiện dự toán ngân sách nhà nước trong hướng dẫn cụ thể về phân cấp nguồn thu, nhiệm vụ chi và phân bổ, giao dự toán ngân sách nhà nước việc tổ chức quản lý, điều hành ngân sách nhà nước hàng năm. Cụ thể từ năm 2017 đến 2021 như sau:
+
+Năm 2017: Thông tư 326/2016/TT-BTC ngày 23 tháng 12 năm 2016 của Bộ Tài chính quy định về tổ chức thực hiện dự toán ngân sách nhà nước năm 2017.
+Năm 2018: Thông tư 132/2017/TT-BTC ngày 15 tháng 12 năm 2017 của Bộ Tài chính quy định về tổ chức thực hiện dự toán ngân sách nhà nước năm 2018.
+Năm 2019: Thông tư 119/2018/TT-BTC ngày 05 tháng 12 năm 2018 của Bộ Tài chính quy định về tổ chức thực hiện dự toán ngân sách nhà nước năm 2019.
+Năm 2020: Thông tư số 88/2019/TT-BTC ngày 24 tháng 12 năm 2019 của Bộ Tài chính quy định về tổ chức thực hiện dự toán ngân sách nhà nước năm 2020.
+Năm 2021: Thông tư số 109/2020/TT-BTC ngày 25 tháng 12 năm 2020 của Bộ Tài chính quy định về tổ chức thực hiện dự toán ngân sách nhà nước năm 2021.
+
+Hình thức rút dự toán từ Kho bạc Nhà nước được quy định tại Điều 18 Thông tư 342/2016/TT-BTC ngày 30/12/2016 của Bộ Tài chính như sau: Căn cứ chế độ, tiến độ, khối lượng thực hiện của từng chương trình, dự án, nhiệm vụ và mức tạm ứng theo quy định, Sở Tài chính thực hiện rút dự toán chi bổ sung có mục tiêu từ ngân sách trung ương cho ngân sách địa phương, mức rút tối đa bằng dự toán giao cho từng chương trình, dự án, nhiệm vụ. Trường hợp rút dự toán nhưng sử dụng không đúng mục tiêu hoặc không sử dụng hết, thì phải hoàn trả ngân sách trung ương trong phạm vi tối đa 30 ngày kể từ ngày rút dự toán.
+Đối với bổ sung có mục tiêu từ ngân sách cấp trên cho ngân sách cấp dưới ở địa phương, Ủy ban nhân dân cấp trên quy định việc rút dự toán của ngân sách cấp dưới phù hợp với thực tế ở địa phương và bảo đảm đúng mục tiêu theo quy định.
+Định kỳ, chậm nhất vào ngày 15 tháng sau, Kho bạc Nhà nước tổng hợp, báo cáo cơ quan tài chính cùng cấp tình hình thực hiện rút dự toán chi bổ sung cân đối ngân sách, chi bổ sung có mục tiêu của ngân sách cấp trên cho ngân sách cấp dưới của tháng trước.
+Trường hợp phát hiện việc rút dự toán chi bổ sung cân đối ngân sách, bổ sung có mục tiêu của cơ quan tài chính không đúng quy định, Kho bạc Nhà nước có văn bản thông báo cho cơ quan tài chính biết, đồng thời tạm dừng việc rút dự toán chi bổ sung cân đối ngân sách, chi bổ sung có mục tiêu từ ngân sách cấp trên cho ngân sách cấp dưới.
